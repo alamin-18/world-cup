@@ -141,3 +141,32 @@ main{
 .footer hr{
     width: 1320px;
 }
+
+/* upcoming-macth-section */
+.upcoming-macth-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.upcoming-macth-cards{
+    width: 312px;
+    height: 242px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+.upcoming-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.upcoming-img img{
+    width: 40%;
+}
+.upcoming-des{
+    padding: 10px;
+    margin-top: 7%;
+    text-align: center;
+}
