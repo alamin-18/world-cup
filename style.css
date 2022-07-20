@@ -7,6 +7,8 @@ body{
     background-color: #E8E8E8;
     font-family: 'Poppins', sans-serif;
 }
+
+/* header start */
 header{
     display: flex;
     justify-content: center;
@@ -48,6 +50,10 @@ header{
     height: 613px;
     width: 581px;
 }
+
+/* header ends */
+
+/* main strat */
 main{
     display: flex;
     justify-content: space-evenly;
@@ -68,6 +74,7 @@ main{
     display: block;
     text-decoration: none;
     font-size: 1.5em;
+    font-weight: 700;
     color: black;
     padding: 10px 10px;
     background-color: #fff;
@@ -76,6 +83,10 @@ main{
     height: 64px;
     width: 252px;
     border-radius: 15px;
+}
+.link-btn:active{
+    background-color: #DD0000;
+    color: #fff;
 }
 .blog-section{
     display: flex;
@@ -122,6 +133,7 @@ main{
     border-radius: 5px; 
     visibility: hidden;
 }
+/* main ends */
 .footer{
     display: flex;
     height: 444px;
@@ -146,7 +158,7 @@ main{
     width: 1320px;
 }
 
-/* upcoming-macth-section */
+/* upcoming-macth-section  starts*/
 .upcoming-macth-card{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -179,11 +191,13 @@ main{
     margin-top: 7%;
     text-align: center;
 }
+/* upcoming-macth-section  ends*/
+
 
 /* media query */
 
 
-/* tap view */
+/* tap view start */
 
 @media only screen and (max-width: 834px){
     .container{
@@ -234,25 +248,26 @@ main{
         .view-btn{
             visibility: visible;
         }
-        .footer-text{
-            display: flex;
-            width: 635px;
-            height: 100px;
-            font-size: 12px;
-            padding-left: 0px;
-            
+        .footer{
+            width: 100%;
         }
-        .footer-des{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .footer-text{
+           display: grid;
+           width: 735px;
+           grid-template-columns: repeat(4,1fr);
+           gap: 10px;
+           padding: 20px;
+
+
         }
         .footer hr{
             width: 720px;
         }
 }
 
-/* mobile view */
+/* tap view ends */
+
+/* mobile view start */
 
 @media only screen and (max-width: 375px){
     .container{
@@ -323,3 +338,4 @@ main{
         width: 335px;
     }  
 }
+/* mobile view start */
