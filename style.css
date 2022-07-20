@@ -116,12 +116,12 @@ main{
     color: #fff;
     border: none;
     border-radius: 5px; 
-    display: none;
+    visibility: hidden;
 }
 .footer{
     display: flex;
     height: 444px;
-    width: 100%;
+    
     margin-top: 5%;
     background-color: #000;
     color: #fff;
@@ -170,3 +170,115 @@ main{
     margin-top: 7%;
     text-align: center;
 }
+
+/* media query */
+
+@media only screen and (min-width: 375px){
+    header{
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+        margin-bottom: 7%; */
+        /* flex-direction: column-reverse; */
+        
+        
+    }
+    .container{
+        /* display: flex; */
+        height: 473px;
+        width: 334px;
+        flex-direction: column;
+        /* background-color: #161616;
+        color: white;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 150px; */
+    }
+    .header-text h1{
+        font-size: 1em;
+    }
+    .header-text p{
+        font-size: 12px;
+    }
+    .header-btn{
+        /* margin-top: 8%; */
+        padding: 10px 25px;
+        font-size: 12px;
+        /* background-color: #DD0000;
+        color: #fff; */
+    }
+    
+    .banner-img img{
+        /* margin-top: 6.50%; */
+        height: 245px;
+        width: 233px;
+}
+}
+/* tap view */
+
+/* @media only screen and (max-width: 834px){
+    .container{
+        height: 398px;
+        width: 734px;
+        padding: 100px 100px;
+        }
+        .header-text h1{
+            font-size: 2em;
+        }
+        .header-text p{
+            font-size: 12px;
+        }
+        .header-btn{
+            margin-top: 8%;
+            padding: 10px ;
+            font-size: 12px;
+            border: none;
+        }
+        
+        .banner-img img{
+            margin-top: 20.5%;
+            height: 340px;
+            width: 323px;
+        }
+        main{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .link-section{
+           height: 0;
+           width: 100% ;
+           display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            padding-left: 15px;
+            
+        }
+        .link-btn{
+            display: flex;
+            justify-content: center;
+        }
+        .cards{
+            margin-top: 15%;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .view-btn{
+            visibility: visible;
+        }
+        .footer-text{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            width: 635px;
+            font-size: 12px;
+        }
+        .footer-des{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer hr{
+            width: 720px;
+        }
+} */
